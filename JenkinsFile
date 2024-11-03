@@ -11,7 +11,7 @@ pipeline {
         stage('Git checkout') {
             steps {
                 echo 'Cloning the project codebase....'
-                git branch: 'main', url: 'https://github.com/cvamsikrishna11/airbnb-infrastructure-v1.git'
+                git branch: 'main', url: 'https://github.com/nwils2/AirBnB-inf-repo.git'
                 // sh 'pwd'
                 // sh 'ls'
 
